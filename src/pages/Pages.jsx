@@ -7,7 +7,7 @@ import Searched from "../pages/Searched";
 function Pages() {
   return (
       <Routes>
-        <Route path="/" element={<Home/>}/>
+        <Route path="/recipe-app" element={<Home/>}/>
         <Route path="/cuisine/:type" element={<Cuisine/>}/>
         <Route path="/recipe/:name" element={<Recipe/>}/>
         <Route path="/search/:searched" element={<Searched/>}/>

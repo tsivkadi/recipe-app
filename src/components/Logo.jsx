@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 function Logo() {
   return (
     <div>
-      <NavLink to={'/'} className='navLink'>
+      <NavLink to={'/recipe-app'} className='navLink'>
         <StyledDiv>
         <h2>R</h2><GiKitchenKnives/><h2>cipes</h2>
         </StyledDiv>
